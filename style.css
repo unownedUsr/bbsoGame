@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+background-image: url(bg_line.jpg); 
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+
+div#title{
+	margin: 30px 0 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+div#memory_board{
+	border:#999 1px solid;
+	width:499px;
+	height:499px;
+	padding:24px;
+	margin:0px auto;
+	background: rgb(225,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 23%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 23%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 23%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+}
+
+div#memory_board > div{
+	background: url(logo.png) no-repeat;
+	border:#000 1px solid;
+	width:60px;
+	height:60px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+>>>>>>> refs/remotes/origin/gh-pages
+}
